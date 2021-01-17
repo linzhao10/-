@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<head>
+<title>首页</title>
+<meta charset="utf-8">
+<!-- Google Fonts -->
+<link href='http://fonts.useso.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<!-- CSS Files -->
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="menu/css/simple_menu.css">
+<!-- JS Files -->
+<script src="http://ajax.useso.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.tools.min.js"></script>
+<script>
+$(function () {
+    $("#prod_nav ul").tabs("#panes > div", {
+        effect: 'fade',
+        fadeOutSpeed: 400
+    });
+});
+</script>
+<script>
+$(document).ready(function () {
+    $(".pane-list li").click(function () {
+        window.location = $(this).find("a").attr("href");
+        return false;
+    });
+});
+function button98(){
+	alert("qq:1570928036");
+}
+</script>
+</head>
+<body>
+<div class="header">
+  <div id="site_title"><a href="首页.html"><img src="img/logo.png" alt=""></a></div>
+  <!-- Main Menu -->
+  <ol id="menu">
+    <li class="active_menu_item"><a href="首页.html">首页</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="故宫.html">故宫</a></li>
+        <li><a href="特写.html">特写</a></li>
+        <li><a href="全景照.html">全景照</a></li>
+   
+      </ol>
+    </li>
+    <!-- END sub menu -->
+    <li><a href="#">旅游</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="世界景点.html">世界景点</a></li>
+        <li><a href="山水.html">山水</a></li>
+        <li><a href="划船.html">划船</a></li>
+    
+      </ol>
+    </li>
+    <!-- END sub menu -->
+    <li><a href="景点.html">景点</a></li>
+    <li><a href="#">居住</a>
+      <!-- sub menu -->
+      <ol>
+        <li><a href="gallery-simple.html">Simple</a></li>
+        <li><a href="portfolio.html">Filterable</a></li>
+        <li><a href="gallery-fader.html">Fade Scroll</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li class="last"><a href="photogrid.html">PhotoGrid</a></li>
+      </ol>
+    </li>
+    <!-- END sub menu -->
+  
+  </ol>
+</div>
+<!-- END header -->
+<div id="container">
+  <!-- tab panes -->
+  <div id="prod_wrapper">
+    <div id="panes">
+      <div> <img src="img/demo/1.jpg" alt="">
+        <h1>Welcome to our site</h1>
+        <p>&nbsp;&nbsp;来到我们的网站，你讲看到大千世界，如果有中意的地方，可以和我们联系</p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">更多</a> <a href="#" class="button">Now</a></p>
+      </div>
+      <div> <img src="photo/ka1.jpg" alt="">
+        <h2>卡丁车</h2>
+        <p>&nbsp;&nbsp;带你享受速度与激情带来的快感，热血沸腾！现实版的激情。 </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">更多</a> <a href="#" class="button">Now</a></p>
+      </div>
+      <div> <img src="photo/gao1.jpg" alt="">
+        <h2>高尔夫</h2>
+        <p>&nbsp;&nbsp;体验富豪运动的快乐</p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">更多</a> <a href="#" class="button">Now</a></p>
+      </div>
+      <div> <img src="photo/hua1.jpg" alt="">
+        <h2>滑冰</h2>
+        <p>&nbsp;&nbsp;体验水上的乐趣。冰天雪地。</p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">更多</a> <a href="#" class="button">Now</a></p>
+      </div>
+      <div> <img src="img/demo/5.jpg" alt="">
+        <h2>感恩</h2>
+        <p>&nbsp;&nbsp;风土人情 </p>
+        <p style="text-align:right; margin-right: 16px"><a href="#" class="button">更多</a> <a href="#" class="button">Buy Now</a></p>
+      </div>
+    </div>
+    <!-- END tab panes -->
+    <div style="clear:both"></div>
+    <!-- navigator -->
+    <div id="prod_nav">
+      <ul>
+        <li><a href="#1"> <img src="img/demo/1.jpg" width="160" alt=""><strong>call me</strong></a></li>
+        <li><a href="#2"><img src="photo/ka1.jpg" width="160" alt=""><strong> 价格好商量</strong></a></li>
+        <li><a href="#3"><img src="photo/gao1.jpg" width="160" alt=""><strong>带你玩遍各地</strong> </a></li>
+        <li><a href="#4"><img src="photo/hua1.jpg" width="160" alt=""><strong>畅享快乐</strong> </a></li>
+        <li><a href="#5"><img src="img/demo/5.jpg" width="160" alt=""><strong> 解放压力</strong>￥1</a></li>
+      </ul>
+    </div>
+    <!-- END navigator -->
+  </div>
+  <!-- END prod wrapper -->
+  <div style="clear:both"></div>
+  <div class="one-third">
+    <h2>滑雪</h2>
+    <p>滑雪运动是运动员把滑雪板装在靴底上在雪地上进行速度、跳跃和滑降的竞赛运动。滑雪板用木材、金属材料和塑料混合制成。高山滑雪由滑降，小回转和大回转（障碍滑雪）组成。</p>
+    <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small">更多</a></p>
+  </div>
+  <div class="one-third">
+    <h2>蹦极</h2>
+    <p>也叫机索跳，白话叫笨猪跳，是近些年来新兴的一项非常刺激的户外休闲活动。跳跃者站在约40米以上（相当于10层楼）高度的桥梁、塔顶、高楼、吊车甚至热气球上，把一端固定的一根长长的橡皮条绑在踝关节处然后两臂伸开，双腿并拢，头朝下跳下去。</p>
+    <p style="text-align:right; margin-right: 15px"><a href="#" class="button_small" onclick="button98();">联系我们</a></p>
+  </div>
+  <div class="one-third last">
+    <h2>划船</h2>
+    <p>赛艇外形两头尖细如同织布的梭子，随着运动员划水过程中的前倾（如邮票画面）、后仰及双脚用力蹬踏脚板的动作，滑座也随之前后移动，就使船艇在水中快速前进。比赛分单人、双人、四人、八人、有舵手、无舵手等项。</p>
+    <p style="text-align:right; margin-right: 15px"><a href="划船.html" class="button_small" >文章</a></p>
+  </div>
+  <div style="clear:both"></div>
+  <div class="box_highlight" style="margin-top:40px">
+    <h2 style="text-align:center">Some kind of places you can go here!</h2>
+  </div>
+  <div style="clear:both; height: 20px"></div>
+</div>
+<!-- END container -->
+
+</body>
+</html>
